@@ -25,7 +25,7 @@ app.use('/graphql', (req, res) => {
   graphqlHTTP(() => ({schema: schema})) (req, res);
 });
 
-app.get("/", function (req, res) {
+app.get("*", function (req, res) {
   res.sendFile(__dirname + '/index.html')
 });
 

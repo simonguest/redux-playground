@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const Title = () => {
     return (
-      <h1>My Todo App</h1>
+      <h1><Link to="/">My Todo App</Link></h1>
     )
 }
 

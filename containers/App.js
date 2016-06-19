@@ -7,11 +7,13 @@ import TodoPanel from './TodoPanel'
 class App extends Component {
 
   render() {
+    const { children } = this.props;
     return (
       <div>
         <Title/>
         <HeaderPanel/>
         <TodoPanel/>
+        <div style={{ marginTop: '1.5em' }}>{children}</div>
       </div>
     )
   }
@@ -25,7 +27,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) =>
 {
   return {
-    
+
   }
 };
 

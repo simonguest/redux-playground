@@ -18,6 +18,8 @@
     "react": "*",
     "react-dom": "*",
     "react-redux": "*",
+    "react-router": "^2.4.1",
+    "react-router-redux": "^4.0.5",
     "redux": "*",
     "redux-thunk": "*"
   },
